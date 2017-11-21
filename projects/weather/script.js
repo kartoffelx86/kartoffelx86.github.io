@@ -46,7 +46,7 @@ function loadWeather(latitude, longtitude) {
         $("#title, #subtitle").fadeTo(400, 1);
     }
     $.ajax({
-        url: "http://api.openweathermap.org/data/2.5/weather",
+        url: "https://api.openweathermap.org/data/2.5/weather",
         data: {
             lat: latitude,
             lon: longtitude,
