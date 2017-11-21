@@ -79,7 +79,7 @@ function processWeather(data) {
 }
 
 function getWeatherimage(id) {
-    var baseurl = "http://source.unsplash.com/collection/{0}/1920x1080";
+    var baseurl = "https://source.unsplash.com/collection/{0}/1920x1080";
     var filter = "{0}";
     if (id <= 200 && id <= 238) {
         return baseurl.replace(filter, '1414458');
