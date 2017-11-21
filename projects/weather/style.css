@@ -4,7 +4,5 @@
     background-attachment: fixed;
     background-size: cover;
     background-color: #999;
-}
-.hero.has-background.bg-rain{
-    background-image: url("https://source.unsplash.com/1920x1800/?rain")
+	background-image: url("https://source.unsplash.com/ap3LXI0fPJY/1920x1080")
 }
